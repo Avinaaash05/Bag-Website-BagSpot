@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----google font-------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@700&display=swap" rel="stylesheet">
+
+    <!-- ------------font awesome---------------- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+
+    <link rel="stylesheet" href="style.css">
+    
+    <title>BagSpot</title>
+</head>
+<body>
+    <!-- ---GSAP--------- -->
+   
+    <div class="loader">
+        <div class="side side-1"></div>
+        <div class="side side-2"></div>
+        <div class="container">
+            <img src="./images/logo.png" alt="logo">
+        </div>
+    </div>
+
+    <!-- ----------SVG Turbulence Image--------------------- --> 
+    <svg>
+        <filter id="noise">
+            <feTurbulence baseFrequency="0.03 0.04" result="NOISE" numOctaves="1" id="turbulence"/>
+            <feDisplacementMap in="SourceGraphic" in2="NOISE" scale="10"></feDisplacementMap>
+            </filter>
+    </svg>
+    <nav>
+        <a href="#features">Features</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- --------Hero-Section------------------ -->
+
+    <div class="hero">
+        <div class="container">
+            <div class="text">
+                <a href="index.html" class="logo">
+                    <img src="./images/logo.png" alt="">
+                    <span>BagSpot</span>
+                </a>
+            <div>
+                <h1>REDEFINE YOUR JOURNEY</h1>
+                <p>Your perfect companion for both urban and wilderness adventures.
+                </p>
+            </div>
+
+        <div class="btn-plcaeholder">
+            <a href="#features" class="btn">
+                <div>
+                    <span>DISCOVER MORE</span>
+                    <span>DISCOVER MORE</span>
+                </div>
+            </a>
+        </div>
+    </div>
+        <div class="banner-img">
+            <img src="./images/banner.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+
+
+<!-- ---------------------FEATURES SECTION-------------------- -->
+
+<main>
+    <div class="line"><span></span></div>
+    <div class="line"><span></span></div>
+    <section id="features">
+        <div class="container">
+            <div class="feature">
+                <div class="col-1">
+                    <h2>
+                        DURABLE, STYLISH, AND READY FOR ANY CHALLENGE.
+                    </h2>
+                    <p>
+                        At the heart of our design philosophy is the use of premium, high-strength materials that promise enduring resilience against wear and tear.
+                    </p>
+                </div>
+                <div class="col-2">
+                    <div class="icon">
+                        <img src="./images/shield-icon.png" alt="icon">
+                    </div>
+                    <div class="feature-img">
+                        <img src="./images/feature1.jpg" alt="feature">
+                        <div class="glass-square"></div>
+                        <div class="sm-square"></div>
+                        <div class="lg-square"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="col-1">
+                    <h2>EXPERIENCE UNMATCHED QUALITY AND STYLE ON EVERY ADVENTURE</h2>
+                    <p>
+                       Reinforced stitching, robust zippers, and water-resistant fabrics are harmoniously combined to create a backpack that not only endures but thrives in the face of adventure.
+                    </p>
+                </div>
+                <div class="col-2">
+                    <div class="icon">
+                        <img src="./images/diamond-icon.png" alt="icon">
+                    </div>
+                    <div class="feature-img">
+                        <img src="./images/feature2.jpg" alt="feature">
+                        <div class="glass-square"></div>
+                        <div class="sm-square"></div>
+                        <div class="lg-square"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="col-1">
+                    <h2>SEALED FOR ADVENTURE, ENGINEERED FOR WATERPROOF EXCELLENCE</h2>
+                    <p>
+                        Each bagpack udergoes rigorous testing to ensure it can brave the elements, from torrential downpours to scorching sun, without compromising its structural integrity or aesthetic appeal.
+                    </p>
+                </div>
+                <div class="col-2">
+                    <div class="icon">
+                        <img src="./images/drop-icon.png" alt="icon">
+                    </div>
+                    <div class="feature-img">
+                        <img src="./images/feature3.jpg" alt="feature">
+                        <div class="glass-square"></div>
+                        <div class="sm-square"></div>
+                        <div class="lg-square"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<!-- ------------------------------PRODUCTS-SECTION--------------- -->
+<section id="products">
+    <h2>Some of our top products</h2>
+    <div class="container">
+        <div class="product product-1">
+            <a href="#">View Details</a>
+        </div>
+        <div class="product product-2">
+            <a href="#">View Details</a>
+        </div>
+        <div class="product product-3">
+            <a href="#">View Details</a>
+        </div>
+        <div class="product product-4">
+            <a href="#">View Details</a>
+        </div>
+        <div class="product product-5">
+            <a href="#">View Details</a>
+        </div>
+    </div>
+</section>
+
+<!-- -----------------------CONTACT SECTION--------------------- -->
+ <section id="contact">
+    <h2>Get In Touch</h2>
+    <div class="container">
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#">
+ 
+                        <i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="info">
+            <div>
+                <h3>Address:</h3>
+                <p>No Location</p>
+                <p>Cyber City, NoPlace</p>
+                <p>Zip Code:12345</p>
+            </div>
+            <div>
+                <h3>Phone:</h3>
+                <p>(+91)1234567890</p>
+            </div>
+            <div>
+                <h3>Email:</h3>
+                <p>travelbags@gmail.com</p>
+            </div>
+            <div>
+                <h3>Bussiness Hours:</h3>
+                <p>Monday - Friday:  9:00 Am - 6:00 PM</p>
+                <p>Saturday - Sunday: Closed</p>
+            </div>
+        </div>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9549099669835!2d77.60691277503987!3d12.97473581480957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1687393dbc13%3A0x8b70c8e652b73d9e!2sMahatma%20Gandhi%20Rd%2C%20Bengaluru%2C%20Karnataka%2C%20India!5e0!3m2!1sen!2sde!4v1726584874567!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+ </section>
+
+ <!-- ---------------FOOTER--------------------------- -->
+  <footer>
+    <p> <span>2024 </span>BagSpot. all Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <!-- -----GSAP scroll trigger--------- -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+   <script src="script.js"></script>
+</body>
+</html>
