@@ -1,8 +1,8 @@
-Project Overview:
+**Project Overview:**
 
 This project is a dynamic, animated website built using HTML, CSS, and JavaScript, enhanced with GSAP (GreenSock Animation Platform). It features smooth animations, interactive elements, and scrolling effects to create an engaging and visually appealing user experience.
 
-Features:
+**Features:**
 
 Responsive Design: The site is fully responsive, adapting to different screen sizes and devices.
 
@@ -12,7 +12,7 @@ Scrolling Effects: Implemented scroll-based animations for elements to reveal an
 
 Interactive Elements: Hover and click effects enhance user interaction.
 
-Technologies Used:
+**Technologies Used:**
 
 HTML5: For structuring the website content.
 
